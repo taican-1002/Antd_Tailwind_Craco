@@ -45,6 +45,7 @@ const Partner = () => {
       <div className="partner-grid">
         {partnerItems.map((item, index) => (
           <Image
+            preview={false}
             key={index}
             src={item.src}
             className={item.class}

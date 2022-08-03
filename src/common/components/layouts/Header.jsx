@@ -27,12 +27,12 @@ const menuItems = [
 
 const Header = () => {
   return (
-    <div className=" fixed w-full z-50">
+    <div className="fixed z-50 w-full ">
       <PageHeader ghost={false}>
         <div className="flex items-center justify-between xl:px-48 lg:px-24 md:px-0 sm:px-0">
-          <Image src={logo} width={150} />
+          <Image preview={false} src={logo} width={150} />
           <Menu
-            className="flex items-center border-0 text-lg text-gray-400 font-sans font-normal"
+            className="flex items-center font-sans text-lg font-normal text-gray-400 border-0"
             items={menuItems}
             defaultSelectedKeys={["1"]}
           ></Menu>

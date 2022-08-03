@@ -21,6 +21,7 @@ const Banner = () => {
         </div>
         <Row className="hidden md:block md:w-2/5">
           <Image
+            preview={false}
             src={banner}
             className="flex object-contain mx-auto lg:w-full md:m-0"
             height="100%"
